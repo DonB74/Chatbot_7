@@ -28,6 +28,7 @@ jobs:
           npm install socket.io
           npm install http
           npm start
+          node /src/backend.js
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
